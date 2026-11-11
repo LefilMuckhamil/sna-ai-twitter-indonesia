@@ -25,3 +25,5 @@ Penelitian ini memetakan interaksi antar-pengguna berdasarkan sebutan (*@mention
       └───────┬───────┘
               ▼
       [ Gephi 0.10+ Visualisasi & SNA ]
+
+Data sudah disediakan jadi bisa diambil secara gratis dan open source
