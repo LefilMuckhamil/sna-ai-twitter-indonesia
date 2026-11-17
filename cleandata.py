@@ -37,7 +37,7 @@ for idx, row in df.iterrows():
                 'Type': 'Directed'
             })
 
-# 3. Buat DataFrame untuk Nodes dan Edges
+# 3. Buat DataFrame untuk Nodes dan Edges untuk memisahkan
 df_nodes = pd.DataFrame(list(nodes), columns=['Id'])
 df_nodes['Label'] = df_nodes['Id']  # Label disamakan dengan Username/Id
 
