@@ -48,7 +48,7 @@ df_nodes.to_csv("nodes.csv", index=False)
 df_edges.to_csv("edges.csv", index=False)
 
 print("\n==========================================")
-print("🎉 EKSTRAKSI GEPHI SELESAI!")
+print("🎉 EKSTRAKSI GEPHI TELAH SELESAI!")
 print("==========================================")
 print(f"📊 Total Nodes (Aktor Unik)     : {len(df_nodes)}")
 print(f"🔗 Total Edges (Interaksi Mention): {len(df_edges)}")
