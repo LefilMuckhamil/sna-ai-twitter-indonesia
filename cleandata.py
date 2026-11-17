@@ -37,18 +37,18 @@ for idx, row in df.iterrows():
                 'Type': 'Directed'
             })
 
-# 3. Buat DataFrame untuk Nodes dan Edges untuk memisahkan
+# 3. Buat DataFrame untuk Nodes dan Edges 
 df_nodes = pd.DataFrame(list(nodes), columns=['Id'])
 df_nodes['Label'] = df_nodes['Id']  # Label disamakan dengan Username/Id
 
 df_edges = pd.DataFrame(edges)
 
-# 4. Simpan ke file CSV khusus untuk Gephi
+# 4. Simpan ke file CSV khusus untuk Gephi untuk di grafik
 df_nodes.to_csv("nodes.csv", index=False)
 df_edges.to_csv("edges.csv", index=False)
 
 print("\n==========================================")
-print("🎉 EKSTRAKSI GEPHI TELAH SELESAI!")
+print("🎉 EKSTRAKSI GEPHI TELAH SELESAII!")
 print("==========================================")
 print(f"📊 Total Nodes (Aktor Unik)     : {len(df_nodes)}")
 print(f"🔗 Total Edges (Interaksi Mention): {len(df_edges)}")
