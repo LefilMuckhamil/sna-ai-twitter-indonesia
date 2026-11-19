@@ -3,7 +3,7 @@ import re
 from collections import Counter
 
 # 1. GANTI NAMA FILE INI sesuai dengan nama file dataset 375 kamu
-nama_file_mentah = "dataset.ai.indonesia_375.csv" 
+nama_file_mentah = "dataset_ai_indonesia_375.csv" 
 
 # Membaca dataset
 df = pd.read_csv(nama_file_mentah)
